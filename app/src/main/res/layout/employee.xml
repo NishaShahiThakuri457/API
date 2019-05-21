@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/tvEmployeename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="employeename"/>
+
+    <TextView
+        android:id="@+id/tvSalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Salary"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvEmployeename"/>
+
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvSalary"/>
+    <TextView
+        android:id="@+id/tvProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Profile"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvAge"/>
+
+
+
+</RelativeLayout>
